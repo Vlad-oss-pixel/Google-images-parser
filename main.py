@@ -12,7 +12,7 @@ with open('input.csv', 'r', encoding='utf-8') as input_file, \
 
     # we go through each line in the CSV file
     for row in reader:
-        articul = row[0]
+        articul = row[1]
 
         # Forming a query to the search engine
         query = f"{articul} image"
