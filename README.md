@@ -1,5 +1,5 @@
 # Google-images-parser
-Google images parser
+Open the input.csv file and go through each line in it. For each row, we form a query to Google Images, execute the query and find a link to the first image in the search results. Then we write the article and the link to the image in a new output.csv file.
 
 # Donate:
 
